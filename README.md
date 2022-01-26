@@ -64,3 +64,12 @@ Using 'git checkout -b feature' will create a new branch named "feature".
 Typically we will want to use a more descriptive name to let everyone know what 
 is going on with this branch.  It is common to see "feature-$ticket_id_number" 
 or "feature-$git_issue_number" to keep track of what is being worekd on.
+
+## Git Reset
+```bash
+git reset $commit_id_number          # How to reset your repo back to a specific state
+git log                              # Just in case you need the commit id
+```
+If you run the command above, it will reset your repo back to a specific commit.  This 
+will typically warn about what files will change if you reset back to an earlier state. 
+If you do not know what the commit id is, you can run "git log" to see them.
