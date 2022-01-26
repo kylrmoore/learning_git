@@ -28,7 +28,7 @@ git remove -v
 # output: origin  https://github.com/kylrmoore/learning_git (fetch)
 # output: origin  https://github.com/kylrmoore/learning_git (push)
 ```
-The above command will inform the user of what repositories it is currenctly conected 
+The above command will inform the user of what repositories it is currently connected 
 to.  Typically, this will return the same info for fetch as well as push since we are 
 pulling and pushing to the same git repo.
 
@@ -63,7 +63,7 @@ finished with this branch, we will want to merge back with the main branch.
 Using 'git checkout -b feature' will create a new branch named "feature". 
 Typically we will want to use a more descriptive name to let everyone know what 
 is going on with this branch.  It is common to see "feature-$ticket_id_number" 
-or "feature-$git_issue_number" to keep track of what is being worekd on.
+or "feature-$git_issue_number" to keep track of what is being worked on.
 
 ## Git Merge
 ```bash
