@@ -53,6 +53,7 @@ git diff branch                      # Checks what changed between two points in
 git push origin feature              # Push to the 'feature' branch
 git pull                             # Create a pull request
                                      # Head over to github and have the request approved
+git branch -d feature                # Be sure to delete your local branch after merging
 ```
 Branching is a way to work on a feature without disturbing others who may be 
 working on the same branch as you.  So what we can do is create a new branch where 
