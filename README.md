@@ -65,6 +65,19 @@ Typically we will want to use a more descriptive name to let everyone know what
 is going on with this branch.  It is common to see "feature-$ticket_id_number" 
 or "feature-$git_issue_number" to keep track of what is being worekd on.
 
+## Git Merge
+```bash
+git merge $branch_to_merge_into      # Merges currently checked out branch into specified branch
+git checkout main
+git pull
+git branch -d $feature_branch        # Once we merge and have been approved, we can run this command 
+                                     # Which will delete our local branch
+```
+In order to add data from one branch to another, we need to merge our commits. 
+We can do this by typing the command "git merge branch_name". This command, 
+after all changes have been pushed, will merge all of our data with the 
+specified branch.
+
 ## Git Reset
 ```bash
 git reset $commit_id_number          # How to reset your repo back to a specific state
