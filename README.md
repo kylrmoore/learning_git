@@ -49,6 +49,7 @@ git branch                           # Shows the available branches as well as w
 
 git checkout                         # Git checkout will be used to switch between branches
 git checkout -b feature              # Adding the '-b' flag will create a new branch
+git diff                             # Checks what changed between two points in time
 ```
 Branching is a way to work on a feature without disturbing others who may be 
 working on the same branch as you.  So what we can do is create a new branch where 
